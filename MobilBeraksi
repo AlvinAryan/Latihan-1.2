@@ -1,0 +1,36 @@
+
+/**
+ * @Nama  :AlvinAryan
+ * @Nim   : 11200930000104
+ * @Kelas : 2D
+ */
+
+package textbasedapplication;
+
+public class Mobil {
+    String warna;
+    int tahunProduksi;
+}
+
+====================================================================================================================================================================================
+
+
+/**
+ * @Nama  :AlvinAryan
+ * @Nim   : 11200930000104
+ * @Kelas : 2D
+ */
+
+package textbasedapplication;
+
+public class MobilBeraksi {
+    public static void main(String[] args) {
+        Mobil mobilAlvin = new Mobil();
+        
+        mobilAlvin.warna = "Polkadot";
+        mobilAlvin.tahunProduksi = 2022;
+        
+        System.out.println("Warna : " + mobilAlvin.warna);
+        System.out.println("Tahun Produksi : " + mobilAlvin.tahunProduksi );
+    }
+}
