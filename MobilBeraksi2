@@ -1,0 +1,28 @@
+/*
+ @ ALVIN ARYAN
+ @ 2D SISTEM INFORMASI
+ @ 11200930000104
+ */
+package textbasedapplication;
+
+public class Mobil2 {
+    String warna;
+    int tahunProduksi;
+
+    void  printMobil(){
+        System.out.println("Warna: " + warna);
+        System.out.println("Tahun: " + tahunProduksi);
+    }
+}
+
+package textbasedapplication;
+
+public class Mobil2Beraksi {
+    public static void main(String[] args){
+	  	Mobil2 mobilku = new Mobil2();
+
+	 	mobilku.warna = "Putih";
+	  	mobilku.tahunProduksi = 20021;
+	  	mobilku.printMobil();
+	 }
+}
