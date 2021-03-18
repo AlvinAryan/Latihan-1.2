@@ -1,0 +1,33 @@
+package Parameter;
+
+
+public class Matematika {
+    
+    void pertambahan(int a, int b){
+	System.out.println("Hasil = " + (a+b));
+    }
+    void pengurangan(int a, int b){
+	System.out.println("Hasil = " + (a-b));
+    }
+    void perkalian(double a, double b){
+	System.out.println("Hasil = " + (a*b));
+    }
+    void pembagian(float a, float b){
+	System.out.println("Hasil = " + (a/b));
+    }
+       
+}
+
+package Parameter;
+
+public class MatematikaBeraksi {
+    public static void main(String[] args){
+        Matematika matenatikakutersayang = new Matematika();     
+            
+            matenatikakutersayang.pertambahan(20,20);  
+            matenatikakutersayang.pengurangan(10,5);  
+            matenatikakutersayang.perkalian(10,20);  
+            matenatikakutersayang.pembagian(21,2);  
+			
+    }   
+}
